@@ -41,10 +41,10 @@ CREATE TABLE IF NOT EXISTS `librarian` (
 -- Dumping data for table `librarian`
 --
 
-INSERT INTO `librarian` (`id`, `name`, `password`, `email`, `address`, `city`, `contact`) VALUES
-(1, 'Prabhakar', 'ppp', 'prabhakar@gmail.com', 'javatpoint', 'noida', '9998328238'),
-(4, 'sumedh', 'sumesh', 'sumesh@gmail.com', 'Kuch Bhi', 'noida', '93823932823'),
-(6, 'abhi', 'abhi', 'abhi@gmail.com', 'javatpoint', 'noida', '92393282323');
+INSERT INTO `librarian` (`id` , `studentid`, `name`, `password`, `course`, `stream`, `contact`) VALUES
+(1, '001', 'Asit', 'asit', 'B.tech', 'CSE', '9998328238'),
+(4, '002', 'Lipu', 'lipu', 'B.tech', 'CSE', '93823932823'),
+(6, '002', 'Suj', 'suj', 'B.tech', 'MECH',  '92393282323');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
